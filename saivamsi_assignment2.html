@@ -3,6 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Assignment 2: Sports System Analysis</title>
+    <style>
+        /* This ensures the images fit nicely inside the table cells */
+        table { width: 100%; border-collapse: collapse; }
+        th, td { padding: 10px; text-align: left; vertical-align: middle; }
+        img { max-width: 250px; height: auto; border: 1px solid #ccc; }
+    </style>
 </head>
 <body>
     <h1>Assignment 2: System Analysis and Usability Test</h1>
@@ -17,26 +23,31 @@
             <th>Input (Action)</th>
             <th>Output (Result)</th>
             <th>Information Types Identified</th>
-        </tr>
-        <tr>
-            <td>Entering "sports" in the search bar.</td>
-            <td>A list of search results featuring various Cardinal Sports Reports.</td>
-            <td>Headline, Publication Date, Article Snippets, Category Tags</td>
+            <th>Screenshot</th>
         </tr>
         <tr>
             <td>Navigating the "Archives" sidebar on the right-hand side.</td>
             <td>A chronological list of months and years showing post frequency.</td>
             <td>Month/Year Labels, Post Count Totals (e.g., 62 for Oct 2025)</td>
+            <td><img src="Screenshot 2026-04-14 211832.png" alt="Archives Sidebar"></td>
+        </tr>
+        <tr>
+            <td>Entering "sports" in the search bar.</td>
+            <td>A list of search results featuring various Cardinal Sports Reports.</td>
+            <td>Headline, Publication Date, Article Snippets, Category Tags</td>
+            <td><img src="Screenshot 2026-04-14 224407.png" alt="Sports Search Results"></td>
         </tr>
         <tr>
             <td>Clicking the headline "Cardinal Sports Report: April 2 – April 8."</td>
             <td>The full article page containing detailed recaps for multiple teams.</td>
             <td>Article Authors, Specific Athlete Names, Game Scores, Sport-specific Statistics (ERA, Goals, Saves), Photo Credits</td>
+            <td><img src="Screenshot 2026-04-14 234825.png" alt="Cardinal Sports Report April 2 to April 8"></td>
         </tr>
         <tr>
             <td>Scrolling to the bottom of the article to "Leave a Reply" and submitting a comment.</td>
             <td>The system processes the user's feedback to post on the article page.</td>
             <td>Comment Text Box, Name Field, Email Field, Website Field, "Post Comment" Button</td>
+            <td><img src="Screenshot 2026-04-14 234844.png" alt="Post a Comment Section"></td>
         </tr>
     </table>
 
@@ -54,10 +65,6 @@
         <li><strong>Efficiency of Use:</strong> While the "Cardinal Sports Report" is a great summary, there is no way to filter for one specific team within the search results, making historical research time-consuming for teachers.</li>
         <li><strong>Visibility of System Status:</strong> The archives list shows the total number of articles (62 for October) but does not indicate how many of those are sports-related until the user clicks the month.</li>
     </ul>
-
-    <h3>Screenshots of Analysis</h3>
-    <p><strong>Search Results for "Sports" on the CUA Tower Website:</strong></p>
-    <img src="Screenshot 2026-04-14 224407.png" alt="Sports Search Results" width="800">
 
     <h2>PART 2 - Comparison and Suggestions</h2>
     <p>My analysis showed that while the site is visually engaging for sports fans, it is difficult for researchers looking for specific data. My volunteer noted that identifying the number of sports posts in the archives was impossible without opening every month. My technical analysis confirmed this as a "Visibility of System Status" issue regarding the sidebar information.</p>
